@@ -1,0 +1,40 @@
+#outer
+{
+    width: 400px;
+    height: auto;
+    background-color:gray;
+    margin: auto;
+}
+div#display-container {
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    opacity: 0.5;
+}
+p#display {
+    color: white;
+    font-size: xx-large;
+}
+div#input-element
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+div#input-element div {
+    height: 80px;
+    background-color: rgb(20, 149, 200);
+    margin-top: 4px;
+}
+div#input-element div input {
+    width: 90px;
+    height: 100%;
+    margin-left: 5px;
+    background-color: rgb(233, 149, 66);
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+div#last #zero {
+    width: 47%;
+}
